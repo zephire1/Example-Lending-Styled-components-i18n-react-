@@ -56,7 +56,7 @@ export const Slider = memo(() => {
               </InfoBlock>
 
 
-              <Preview src={`/${item.Type}/${item.Img}.png`} loading="lazy" alt={item.Name} />
+              <Preview src={`/${item.Type.toLowerCase()}/${item.Img}.png`} loading="lazy" alt={item.Name} />
 
             </Item>
           )
